@@ -1,0 +1,20 @@
+{
+    "name": "test/test",
+    "description": "test for composer",
+    "license": "license info",
+    "authors": [
+        {
+            "name": "migxig",
+            "email": "1007974509@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=5.6"
+     },
+     "autoload": {
+        "psr-4": {
+            "YanlongMa\\Push\\": "src/"
+        }
+    }
+}
